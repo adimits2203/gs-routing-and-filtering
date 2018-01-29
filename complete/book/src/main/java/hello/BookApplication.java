@@ -16,7 +16,7 @@ public class BookApplication {
 
   @RequestMapping(value = "/checked-out")
   public String checkedOut() {
-    return "Spring Boot in Action after";
+    return "Spring Boot in Action before";
   }
 
   public static void main(String[] args) {
